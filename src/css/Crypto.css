@@ -1,0 +1,70 @@
+img{
+    width: 20%;
+    height: auto;
+}
+
+.crypto_container {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #d7d7d7;
+}
+
+.red {
+    color: #f64f69;
+}
+
+.green {
+    color: #4ff692;
+}
+
+.watch_button{
+    font-size: 18px;
+    background: #2898F3;
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 8px;
+    transition: all .4s ease-in;
+    
+}
+
+.watch_button:hover{
+    background-color: white;
+    color: #1B7ADD;
+}
+
+.crypto_row {
+    display: flex;
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+    height: 70px;
+    width: 900px;
+}
+
+.crypto {
+    display: flex;
+    justify-content: space;
+}
+
+.crypto_data {
+    display:flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.spin{
+    -moz-animation: spinHorizontal 3s infinite linear;
+    -o-animation: spinHorizontal 3s infinite linear;    
+    -webkit-animation: spinHorizontal 3s infinite linear;
+    animation: spinHorizontal 3s infinite linear;
+}
+
+@keyframes spinHorizontal {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(360deg); }
+}
+
